@@ -15,9 +15,10 @@ from sklearn.metrics import classification_report
 from sklearn import datasets
 import argparse
 
-
+#defining main function 
 def main(args):
     
+    #text size= text size specifed in the command line 
     test_size = args["test_size"]
     layers= args["layers"]
     
@@ -54,10 +55,10 @@ def main(args):
     else:
         nn= NeuralNetwork([X_train.shape[1],10])
     
-    print("[INFO] {}".format(nn))
+    print("[INFO] {}".format(nn)) # printing infomation about the progress of processing all epochs 
     nn.fit(X_train, y_train, epochs=1000)
 
-    # evaluate network
+    # evaluating network
     print(["[INFO] evaluating network..."])
     predictions = nn.predict(X_test)
     predictions = predictions.argmax(axis=1)
@@ -66,7 +67,7 @@ def main(args):
     
 if __name__=="__main__":
     
-    #parser
+    #building an argument parser
     ap = argparse.ArgumentParser(description = "Training a neural network")
     #parser.add_argument("--l","--layers", nargs="+")
 
