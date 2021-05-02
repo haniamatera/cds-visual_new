@@ -1,0 +1,4 @@
+os
+pandas==1.1.4
+cv2
+glob
