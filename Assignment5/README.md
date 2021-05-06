@@ -27,11 +27,24 @@ You'll also need to think about how to get the images into an array for the mode
 
 __INSTRUCTIONS__
 
-In order to run the script, please navigate outside the 'Assignment 5' folder and download the whole repository as a .zip file. You can then either upload it to the JupyterHub or run locally on your computer. 
+In order to run the script, please navigate outside the 'Assignment 5' folder and download the whole repository as a .zip file. You can then either upload it to the JupyterHub or run locally on your computer. You can also do that by performing the git clona command (see below). 
 Please not thet this folder does not contain data folder. You should therefore have your own data set with all paitings downloaded on your computer and run the code on these files. 
 
-1. Open the terminal and navigate to the assignment folder (cd 'your path')
-2. Create the virtual environment by typing: bash create_vision_venv.sh (this command will create a new virtual environmnet CNN with all packages specified in the requirements.txt file)
-3. Run the python script by typing: python src/cnn-artists.py (by typing -s 'number', where number stands for the size you wish your paintings to be in a format as follows (x,x) N.B. that the default size is (30,30)
-4. The output of class_report will be automatically stored in the output folder, along with the lineplot figure showing the training loss accuracy.
+
+a) Setting up a virtual environment 
+```
+git clone https://github.com/haniamatera/cds-visual_new.git
+cd Assignment5 
+bash create_vision_venv.sh
+source ./CNN/bin/activate 
+```
+
+b) Running the python script 
+```
+python src/cnn-artists.py -s 'number' 
+```
+
+*number stands for the size you wish your paintings to be in a format as follows (x,x) N.B. that the default size is (30,30)
+
+N.B. The output of class_report will be automatically stored in the output folder, along with the lineplot figure showing the training loss accuracy.
 
