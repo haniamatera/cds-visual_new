@@ -48,13 +48,3 @@ python src/cnn-artists.py -s 'number'
 
 N.B. The output of class_report will be automatically stored in the output folder, along with the lineplot figure showing the training loss accuracy.
 
-```
-git clone https://github.com/haniamatera/cds-visual_new.git
-cd Assignment6
-bash create_vision_venv.sh
-source ./CNN2/bin/activate 
-```
-```
-python covid19.py ---resize_height 'number' --resize_width 'number' --epochs 10
-
-```
