@@ -49,3 +49,6 @@ python src/cnn-artists.py -s 'number'
 N.B. The output of class_report will be automatically stored in the output folder, along with the lineplot figure showing the training loss accuracy.
 
 
+```
+python covid19.py -a 'number' -b 'number' -e 'number' -s 'number' 
+```
