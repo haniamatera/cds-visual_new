@@ -48,9 +48,4 @@ python src/cnn-artists.py -s 'number'
 
 N.B. The output of class_report will be automatically stored in the output folder, along with the lineplot figure showing the training loss accuracy.
 
-```bash
-git clone https://github.com/askesvane/VisualAnalytics.git
-cd assignment6_Covid19
-bash ./create_visual_venv.sh
-source ./Covid_env/bin/activate
-```
+
