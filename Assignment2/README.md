@@ -1,7 +1,7 @@
 __INSTRUCTIONS__
 
 
-In order to run the script, it is necessary to create a virtual environment containing all the packages needed to run the script created for this assignment. That can be done by executing the git ```clone command``` and pasting the path to the assignment folder, running the bash script to create the environment and activating it. In order to do that, the following commands need to be executed:
+In order to run the script, it is necessary to create a virtual environment containing all the packages needed to run the script created for this assignment. That can be done by executing the ```git clone``` command and pasting the path to the assignment folder, running the bash script to create the environment and activating it. In order to do that, the following commands need to be executed:
 
 ```
 git clone https://github.com/haniamatera/cds-visual_new.git
