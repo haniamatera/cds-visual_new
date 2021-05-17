@@ -5,8 +5,8 @@ __Multi-class classification of impressionist painters__
 
 __INSTRUCTIONS__
 
-In order to run the script, please navigate outside the 'Assignment 5' folder and download the whole repository as a .zip file. You can then either upload it to the JupyterHub or run locally on your computer. You can also do that by performing the git clona command (see below). 
-Please not thet this folder does not contain data folder. You should therefore have your own data set with all paitings downloaded on your computer and run the code on these files. 
+In order to run the script, please navigate outside the 'Assignment 5' folder and download the whole repository as a .zip file. You can then either upload it to the JupyterHub or run locally on your computer. You can also do that by performing the -git clone command (see below). 
+Please note that this folder does not contain the data folder. You should therefore have your own data set with all paitings downloaded on your computer and run the code on these files. 
 
 
 a) Setting up a virtual environment 
